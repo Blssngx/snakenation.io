@@ -1,10 +1,11 @@
-import { Component } from "react/cjs/react.production.min";
+// import { Component } from "react/cjs/react.production.min";
+import { Component } from "react";
 import "./styles.css";
 
 class FeaturesData extends Component {
   render() {
     return (
-      <div className="first-fea">
+      <div className={this.props.className}>
         <div className="fea-text">
           <h2>{this.props.heading}</h2>
           <p>{this.props.text}</p>

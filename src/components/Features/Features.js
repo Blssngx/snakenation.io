@@ -8,12 +8,13 @@ const Features = () => {
       <h1>Features</h1>
       <p>Earm Value for your content</p>
 
-      {/* <FeaturesData
+      <FeaturesData
+        className="first-fea-reverse"
         heading="Authentecity"
         text="Snsjdajhjhf fhhshjfjsf sfjshjhjdfjf"
         img1={QRcode}
         img2={QRcode}
-      /> */}
+      />
     </div>
   );
 };
