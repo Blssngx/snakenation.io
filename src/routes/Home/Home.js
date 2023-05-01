@@ -2,6 +2,7 @@ import Hero from "../../components/Hero/Hero";
 import Navbar from "../../components/Navbar/Navbar";
 import QRcode from "../../components/QRcode/QRcode";
 import Features from "../../components/Features/Features";
+import Card from "../../components/Card/Card";
 
 function Home() {
   return (
@@ -17,7 +18,8 @@ function Home() {
         btnClass="show"
       />
       <QRcode />
-      <Features />
+      {/* <Features /> */}
+      <Card />
     </>
   );
 }
