@@ -1,12 +1,21 @@
 .qrContainer {
   background-color: white;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 1rem;
   width: 100px;
   height: 100px;
   position: fixed;
-  bottom: 1%;
-  left: 1%;
+  bottom: 2%;
+  left: 2%;
+
+  /* background-image: transparent url(../../assets/images/qrCode.png);
+  z-index: 1; */
 }
+/* 
+.qrContainer:hover {
+  background-image: url(../../assets/images/logo-black.svg);
+  z-index: 2;
+} */
 
 @media screen and (max-width: 850px) {
   .qrContainer {
