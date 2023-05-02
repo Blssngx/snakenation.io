@@ -1,4 +1,4 @@
-.qrContainer {
+.qr-image {
   background-color: white;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
   border-radius: 1rem;
@@ -7,18 +7,57 @@
   position: fixed;
   bottom: 2%;
   left: 2%;
-
-  /* background-image: transparent url(../../assets/images/qrCode.png);
-  z-index: 1; */
 }
-/* 
-.qrContainer:hover {
-  background-image: url(../../assets/images/logo-black.svg);
-  z-index: 2;
-} */
+
+.qr-image2 {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 80px;
+  height: 80px;
+  position: fixed;
+  color: white;
+}
+
+.qr-image:hover{
+  transform: scale(1.3);
+}
+
+.QRcontainer {
+  flex:content;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 1rem;
+  width: 200px;
+  height: 100px;
+  position: fixed;
+  bottom: 2%;
+  left: 2%;
+}
+
 
 @media screen and (max-width: 850px) {
-  .qrContainer {
+  .qr-image  {
     display: none;
+  }
+
+  .qr-image2 {
+    border-radius: 1rem;
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    bottom: 2%;
+    left: 2%;
+    background-color: white;
+  }
+
+  .QRcontainer {
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0);
   }
 }

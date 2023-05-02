@@ -6,7 +6,10 @@ import logo from "../../assets/images/logo-black.svg";
 class Navbar extends Component {
   render() {
     return (
-      <img className="qrContainer" alt="www.snakenation.io" src={QRcode} />
+      <div className="QRcontainer">
+      <img className="qr-image" alt="www.snakenation.io" src={QRcode} />
+      <img className="qr-image2" alt="www.snakenation.io" src={logo} />
+      </div>
     );
   }
 }

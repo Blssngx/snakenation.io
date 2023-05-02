@@ -9,46 +9,35 @@ const Footer = () => {
           <p>Create, Earn and Grow</p>
         </div>
         <div>
-          <a href="/">
-            <i className="fab fa-facebook-square"></i>
+          <a href="https://www.facebook.com/snakenationco">
+            <i className="fab fa-facebook-square" aria-hidden="true"></i>
           </a>
-          <a href="/">
-            <i className="fab fa-facebook-square"></i>
+          <a href="https://www.instagram.com/snakenation.co/">
+            <i className="fab fa-instagram-square" aria-hidden="true"></i>
           </a>
-          <a href="/">
-            <i className="fab fa-facebook-square"></i>
+          <a href="https://www.linkedin.com/company/snakenation/">
+            <i class="fab fa-linkedin" aria-hidden="true"></i>
           </a>
         </div>
       </div>
 
       <div className="bottom">
         <div>
-          <h4>Project</h4>
-          <a href="/">Changelog</a>
-          <a href="/">Changelog</a>
-          <a href="/">Changelog</a>
-          <a href="/">Changelog</a>
+          <h4>App</h4>
+          <a href="/">App Store</a>
+          <a href="/">Play Store</a>
         </div>
         <div>
-          <h4>Community</h4>
-          <a href="/">Changelog</a>
-          <a href="/">Changelog</a>
-          <a href="/">Changelog</a>
-          <a href="/">Changelog</a>
+          <h4>Company</h4>
+          <a href="/">About</a>
+          <a href="/">Team</a>
         </div>
         <div>
-          <h4>Help</h4>
-          <a href="/">Changelog</a>
-          <a href="/">Changelog</a>
-          <a href="/">Changelog</a>
-          <a href="/">Changelog</a>
-        </div>
-        <div>
-          <h4>Others</h4>
-          <a href="/">Changelog</a>
-          <a href="/">Changelog</a>
-          <a href="/">Changelog</a>
-          <a href="/">Changelog</a>
+          <h4>Support</h4>
+          <a href="/">FAQ</a>
+          <a href="/">Contact</a>
+          <a href="/">Privacy Policy</a>
+          <a href="/">Terms and Conditions</a>
         </div>
       </div>
     </div>

@@ -17,13 +17,13 @@ function Card() {
         
         <CardData
           image={QRcode}
-          heading="Create"
+          heading="Earn"
           text="codnd dfushfbjs sfsjhfsnf fdjsjfsj"
         />
         
         <CardData
           image={QRcode}
-          heading="Create"
+          heading="Grow"
           text="codnd dfushfbjs sfsjhfsnf fdjsjfsj"
         />
         

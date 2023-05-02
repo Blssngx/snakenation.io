@@ -1,4 +1,3 @@
-// import { Component } from "react/cjs/react.production.min";
 import { Component } from "react";
 import "./styles.css";
 
