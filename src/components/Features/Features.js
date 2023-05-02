@@ -10,8 +10,8 @@ import image6 from "../../assets/images/post-feed.png";
 const Features = () => {
   return (
     <div className="features">
-      <h1>Snakenation.io is our authentic social platform where creativity challenges rules and dopeness delivers value.</h1>
-
+      <h1>Features</h1>
+      
       <FeaturesData
         className="first-fea"
         heading="Create"
