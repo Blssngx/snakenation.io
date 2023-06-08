@@ -1,0 +1,26 @@
+.feed-section {
+    margin-top: 55px;
+    flex-wrap: wrap;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 25%;
+    height: max-content;
+    /* overflow-x: scroll;
+    overscroll-behavior-inline: contain; */
+}
+
+.feed-section1 {
+    /* margin-top: 55px; */
+    flex-wrap: wrap;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 25%;
+    height: max-content;
+    /* overflow-x: scroll; */
+    /* overscroll-behavior-inline: contain; */
+}
+
+.device {
+    width: 270%;
+    background-color: aqua;
+}

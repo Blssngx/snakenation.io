@@ -15,7 +15,7 @@ export default function App() {
         <Route path="/community" element={<Community />} />
         <Route path="/bugreport" element={<BugReport />} />
       </Routes>
-      <Navbar />
+      {/* <Navbar /> */}
     </div>
   );
 }
